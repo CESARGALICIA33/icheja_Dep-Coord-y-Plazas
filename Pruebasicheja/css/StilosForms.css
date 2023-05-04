@@ -1,0 +1,53 @@
+.form{
+    margin-top: 10px;
+    color:#000;
+    padding: 40px;
+  }
+
+ /*codigo de la configuracion de los label */
+  label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+    font-size: 15px;
+  }
+   /*codigo para dar mensaje de ayuda en lo labels antes ed eso agregar title */
+  label:hover:after {
+      background-color: #ccc;
+      padding: 5px;
+      border-radius: 5px;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+   }
+   
+   
+    
+  
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"], /*cambiamos a los tipos por el valor de text area en css*/
+  
+  textarea {
+    display: inline-block;
+    width: 300px;
+    border: 3px solid #891845;
+  }
+
+  input{
+    border: 3px solid rgba(98, 17, 50, 1);
+    
+   
+}
+
+
+.BotonGuardar{
+  display: flex;
+  width: 100px;
+  border-radius: 10px;
+  background-color: #891845;
+  text-decoration: none;
+
+}
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
